@@ -1,8 +1,6 @@
 package suits;
 
-import loginTests.FillinLoginPageTest;
-import loginTests.OpenLoginPageTest;
-import loginTests.VerifyIfAllWebElementsAreDisplayedTest;
+import loginTests.*;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
@@ -10,7 +8,10 @@ import org.junit.runners.Suite;
 @Suite.SuiteClasses({
         OpenLoginPageTest.class,
         FillinLoginPageTest.class,
-        VerifyIfAllWebElementsAreDisplayedTest.class
+        VerifyIfAllWebElementsAreDisplayedTest.class,
+        VerifyIfAllErrorMessagesAppearedTest.class,
+        UnsuccessfulLoginTest.class
+
 })
 public class LoginPageTestsSuit {
 
